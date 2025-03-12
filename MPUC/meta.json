@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "hotfixesFormat": null,
+    "versions": [
+        {
+            "id": "0.5.0",
+            "releasedAt": 1741786167000,
+            "updateType":"incompatible",   
+            "promotions": {
+                "downloads": {
+                    "modrinth": "https://modrinth.com/modpack/gk1hoqol/version/0.5.0/",
+                    "curseforge": "https://www.curseforge.com/minecraft/modpacks/gk1hoqol/files/1218254/",
+                    "generic": "https://github.com/Gameking1happy-Development/GK1HOQOL/releases/tag/0.5.0/"
+                }
+            }
+        }
+    ]
+  }
