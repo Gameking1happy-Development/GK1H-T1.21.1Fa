@@ -1,0 +1,5 @@
+# GK1H-T1.21.1Fa 1.0.4 - Minor Patch
+
+## Changes
+
+Some configs were changed.
