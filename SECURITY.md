@@ -2,11 +2,12 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.x.x   | :white_check_mark: |
-| < 1.0.0 | :x:                |
+| Version   | Supported          |
+|-----------| ------------------ |
+| 1.21.1    | :white_check_mark: |
+| < 1.21.1  | :x:                |
+| \> 1.21.1 | :x:                |
 
 ## Reporting a Vulnerability
 
-Report a vulnerability [here.](https://github.com/Gameking1happy-Development/GK1HOQOL/security/advisories/new)
+Report a vulnerability [here.](https://github.com/Gameking1happy-Development/GK1H-T1.21.1Fa/security/advisories/new)

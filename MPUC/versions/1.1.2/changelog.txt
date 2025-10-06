@@ -1,0 +1,21 @@
+# GK1H-T1.21.1Fa 1.1.2 - More Performance Mods
+
+## Mod Additions
+
+Noisium
+
+BadOptimizations
+
+## Mod Updates
+
+Balm (21.0.50 to 21.0.52)
+
+Better Animations Collection (v21.1.0 to v21.1.1)
+
+Chat Heads (0.13.21 to 0.14.0)
+
+Collective (8.3 to 8.7)
+
+Just Enough Items (19.25.0.321 to 19.25.0.322)
+
+Zoomify (2.14.4 to 2.14.6)
