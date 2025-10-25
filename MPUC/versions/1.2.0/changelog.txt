@@ -1,4 +1,4 @@
-# GK1H-T1.21.1Fa 1.2.0 - mc-publish
+# GK1H-T1.21.1Fa 1.2.0 - Many Mods & mc-publish
 
 ## Mod Additions
 
@@ -6,11 +6,23 @@ Armor Quick Swap
 
 Enchantment Switch
 
+Movable Block Entities
+
+Boat Item View
+
+Necronomicon API
+
+Boat Break Fix
+
+Boat Better / Better Boat Movement
+
+Cardinal Ice Boats
+
 ## Mod Updates
 
 Anvian's Lib (1.2 to 1.4.1)
 
-Collective (8.7 to 8.12)
+Collective (8.7 to 8.13)
 
 Configured (2.6.1 to 2.6.2)
 
@@ -31,8 +43,6 @@ Puzzles Lib (v21.1.38 to v21.1.39)
 Sodium Extra Information (2.5 to 2.5.1)
 
 XaeroPlus (2.28.6 to 2.28.8)
-
-
 
 ## Other Changes
 
