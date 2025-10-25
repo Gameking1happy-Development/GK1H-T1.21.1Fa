@@ -9,10 +9,6 @@ jobs:
     outputs:
       curseforge-version: ${{steps.step1.outputs.curseforge-version}}
     steps:
-      - name: identify 1
-        run: git config --global user.email "gameking1happy@icloud.com"
-      - name: identify 2
-        run: git config --global user.name "Gameking1happy"
       - uses: actions/checkout@v4
       - id: step1
         name: Release
@@ -35,10 +31,10 @@ jobs:
           game-versions: |
             1.21.1
       - name: Update timestamp
-        run: sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" MPUC/meta.json
-      - name: prep commit
-        run: git add --all
-      - name: commit
-        run: git commit -m "Update timestamp"
-      - name: push
-        run: git push origin main
+        run: |
+          sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" MPUC/meta.json
+          git add --all
+          git commit -m "Update timestamp"
+          git push origin main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
