@@ -28,6 +28,6 @@ jobs:
           game-versions: |
             1.21.1
         env:
-          CFVERSION: ${{ curseforge-version }}
+          curseforge-version: ${{ curseforge-version }}
       - name: Update timestamp
-        run: sed -i "s/PLACEHOLDER/"${{ CFVERSION }}"/g" meta.json
+        run: sed -i "s/PLACEHOLDER/"${{ curseforge-version }}"/g" meta.json
