@@ -36,6 +36,8 @@ jobs:
             1.21.1
       - name: Update timestamp
         run: sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" MPUC/meta.json
+      - name: prep commit
+        run: git add MPUC/meta.json
       - name: commit
         run: git commit -m "Update timestamp"
       - name: push
