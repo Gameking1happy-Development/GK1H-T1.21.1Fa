@@ -9,6 +9,10 @@ jobs:
     outputs:
       curseforge-version: ${{steps.step1.outputs.curseforge-version}}
     steps:
+      - name: Identify
+        run: |
+          git config --global user.email "gameking1happy@icloud.com"
+          git config --global user.name "Gameking1happy"
       - uses: actions/checkout@v4
       - id: step1
         name: Release
@@ -35,6 +39,4 @@ jobs:
           sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" MPUC/meta.json
           git add --all
           git commit -m "Update timestamp"
-          git push origin main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push origin main --force
