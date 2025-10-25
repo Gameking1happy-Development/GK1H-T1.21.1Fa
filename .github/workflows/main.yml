@@ -9,6 +9,10 @@ jobs:
     outputs:
       curseforge-version: ${{steps.step1.outputs.curseforge-version}}
     steps:
+      - name: identify 1
+        run: git config --global user.email "gameking1happy@icloud.com"
+      - name: identify 2
+        run: git config --global user.name "Gameking1happy"
       - uses: actions/checkout@v4
       - id: step1
         name: Release
