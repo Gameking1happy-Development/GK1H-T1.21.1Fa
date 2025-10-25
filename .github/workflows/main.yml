@@ -6,9 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      curseforge-version: ${{steps.step1.outputs.curseforge-version}}
     steps:
       - uses: actions/checkout@v4
-      - name: Release
+      - id: step1
+        name: Release
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           # Only include this section if you wish to publish
@@ -27,7 +30,5 @@ jobs:
             neoforge
           game-versions: |
             1.21.1
-        env:
-          curseforge-version: ${{ curseforge-version }}
       - name: Update timestamp
-        run: sed -i "s/PLACEHOLDER/"${{ curseforge-version }}"/g" meta.json
+        run: sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" meta.json
