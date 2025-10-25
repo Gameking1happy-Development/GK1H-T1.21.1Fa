@@ -31,4 +31,7 @@ jobs:
           game-versions: |
             1.21.1
       - name: Update timestamp
-        run: sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" meta.json
+        run:
+          sed -i "s/PLACEHOLDER/"${{ needs.build.outputs.curseforge-version }}"/g" MPUC/meta.json
+          git commit -m "Update timestamp"
+          git push origin main
