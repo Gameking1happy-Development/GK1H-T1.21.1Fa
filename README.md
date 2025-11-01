@@ -1,4 +1,4 @@
-A template modpack made by Gameking1happy Development.  
+A modpack made by GK1H Development made for vanilla & plugin servers.
 
-Modrinth: https://modrinth.com/project/gk1h-t1.21.1fa  
+Modrinth: https://modrinth.com/project/gk1h-vanilla-compatible  
 Discord: https://discord.gg/AwJvGzH
