@@ -1,0 +1,129 @@
+# GK1H-T1.21.1Fa 1.3.0 - Fuzs Mod Additions & Server-Sided + Unused Mod Removals
+
+## Mod Additions
+
+Pixelshot
+
+## Mod Replacements
+
+Mob Plaques --> Health Bars
+
+## **WARNINGS!!!**
+
+Fast Item Frames removal will break all item frames in your worlds, **PLEASE EITHER DESTROY ANY ITEMS FRAMES PRIOR TO INSTALLING THIS VERSION OR INSTALL IT AND REINSTALL FAST ITEM FRAMES BEFORE ENTERING A WORLD!!!**
+
+**THIS UPDATE REMOVES SOME SERVER-ONLY OPTIMIZATION MODS, IF YOU USE THIS MODPACK FOR WORLDS YOU MUST READD THEM MANUALLY!!!** I also recommend you readd all mods not marked with unused or a special reason, **BUT DO ADD MODS MARKED AS LIBRARY WITH REMOVED DEPENDENT(S) THAT YOU READD!!!**
+
+## Notices
+
+This modpack was never intended for server-sided use in the first place, but this update onwards server-sided use is now not supported, and also for client on Fabric/Forge/NeoForge servers with gameplay-changing mods that are required on client. This is only for vanilla or plugin software servers.
+
+Just Enough Items was removed from GK1H-T1.21.1NF, but that modpack is intended for servers with the same modpack, making it unnecessary. Since some servers might use JEI, it is included in this one since EMI has compatibility with it installed.
+
+## Mod Removals
+
+[EMF] Entity Model Features (Unused)
+
+[ESF] Entity Sound Features (Unused)
+
+[ETF] Entity Texture Features (Unused)
+
+Alternate Current
+
+Balm (Unused library)
+
+Better Tridents
+
+Block Runner
+
+Cardinal Components API (Unused library)
+
+Climate Rivers
+
+Clumps
+
+Collective (Unused library)
+
+Combat Nouveau
+
+Concurrent Chunk Management Engine (Fabric)
+
+Convenient Effects
+
+Death Finder
+
+Diagonal Fences
+
+Diagonal Walls
+
+Diagonal Windows
+
+Dyed Flames
+
+Easy Anvils
+
+Easy Magic
+
+Easy Shulker Boxes
+
+Enchantment Switch
+
+Fast Item Frames
+
+Hypixel Mod API (Unused)
+
+Iris Shaders (Unused)
+
+Leaves Be Gone
+
+Load My F***ing Tags
+
+Movable Block Entities
+
+NoChangeTheGame (Hypixel dropped 1.21.1 support.)
+
+Noisium
+
+Not Enough Recipe Book [NERB]
+
+OctoLib (Library needed by Not Enough Recipe Book [NERB])
+
+Paxi (Unused)
+
+Pets Not Friendly Fire
+
+Polymorph (Unused)
+
+Resource Pack Overrides (Unused)
+
+Skeleton AI Fix
+
+Sodium Core Shader Support (Unused)
+
+Stoneworks
+
+Straw Statues
+
+Sword Blocking Mechanics
+
+TerraBlender (Library needed by Climate Rivers)
+
+Too Fast
+
+Universal Bone Meal
+
+Universal Enchants
+
+Very Many Players (Fabric)
+
+Vistas (Unused)
+
+Visual Workbench
+
+Ytones
+
+## Mod Updates
+
+Bookshelf (21.1.77 to 21.1.78)
+
+Entity Culling (1.9.2 to 1.9.3)
