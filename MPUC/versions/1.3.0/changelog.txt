@@ -1,12 +1,4 @@
-# GK1H-T1.21.1Fa 1.3.0 - Fuzs Mod Additions & Server-Sided + Unused Mod Removals
-
-## Mod Additions
-
-Pixelshot
-
-## Mod Replacements
-
-Mob Plaques --> Health Bars
+# GK1H-T1.21.1Fa 1.3.0 - Mod Additions & Removals
 
 ## **WARNINGS!!!**
 
@@ -19,6 +11,14 @@ Fast Item Frames removal will break all item frames in your worlds, **PLEASE EIT
 This modpack was never intended for server-sided use in the first place, but this update onwards server-sided use is now not supported, and also for client on Fabric/Forge/NeoForge servers with gameplay-changing mods that are required on client. This is only for vanilla or plugin software servers.
 
 Just Enough Items was removed from GK1H-T1.21.1NF, but that modpack is intended for servers with the same modpack, making it unnecessary. Since some servers might use JEI, it is included in this one since EMI has compatibility with it installed.
+
+## Mod Additions
+
+Pixelshot
+
+## Mod Replacements
+
+Mob Plaques --> Health Bars
 
 ## Mod Removals
 
